@@ -3,20 +3,18 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <Contenu></Contenu>
-    <Modal></Modal>
   </div>
 </template>
 
 <script>
 
 import Contenu from './components/Contenu.vue'
-import Modal from './components/Modal.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Contenu,
-    Modal
+    Contenu
   }
 }
 </script>
